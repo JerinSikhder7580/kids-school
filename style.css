@@ -1,0 +1,31 @@
+body {
+    font-family: "Quicksand", sans-serif;
+}
+
+section {
+    max-width: 1400px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+@media (min-width:400px) {
+    section {
+        padding: 0 10px;
+    }
+}
+
+#img1 {
+
+    grid-row: span 2;
+    grid-column: span 2;
+}
+
+.stories-mother {
+    background-image: url(./img/img2/bg.png);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 1)0%, rgba(254, 163, 1, 1)100%);
+    padding:  56px 0;
+}
+
+.stories img {
+    width: 100%;
+}
